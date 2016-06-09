@@ -8,7 +8,7 @@
 
     <changeSet id="1" author="vivek">
         <createTable tableName="shopping_cart">
-            <column name="shopping_cart_id" type="int">
+            <column name="shopping_cart_id" type="int" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
             <column name="customer_id" type="int">
